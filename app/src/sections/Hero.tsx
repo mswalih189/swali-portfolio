@@ -282,8 +282,8 @@ export default function Hero() {
               
               {/* Experience badge */}
               <div className="absolute -right-4 top-1/4 px-4 py-3 bg-dark-light border border-white/10 rounded-xl shadow-xl">
-                <div className="font-display text-2xl font-bold text-red-accent">1+</div>
-                <div className="text-xs text-white/60">Year Exp.</div>
+                <div className="font-display text-2xl font-bold text-red-accent">7</div>
+                <div className="text-xs text-white/60">Month Exp.</div>
               </div>
             </div>
           </div>
