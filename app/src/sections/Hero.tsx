@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Download, MapPin, Phone, Mail, Github, Linkedin } from 'lucide-react';
-import HeroImage from "@/hero-profile.jpg";
+import HeroImage from "@/assets/hero-profile.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
