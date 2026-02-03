@@ -262,8 +262,8 @@ export default function Hero() {
               style={{ perspective: '1000px' }}
             >
               <div className="relative w-72 h-96 sm:w-80 sm:h-[420px] lg:w-96 lg:h-[500px] rounded-2xl overflow-hidden border-2 border-white/10 shadow-2xl">
-                <img
-                  src="swali-portfolio/assets/public/hero-profile.jpg"
+                <img 
+                  src={`${import.meta.env.BASE_URL}hero-profile.jpg`}
                   alt="Mohammed Swalih - DevOps & Cloud Engineer"
                   className="w-full h-full object-cover object-top"
                 />
